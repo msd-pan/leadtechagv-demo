@@ -1,0 +1,10 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".", // 确保 baseUrl 正确
+    "paths": {
+      "@/*": ["./*"] // 或指向你的源码目录，如 "./src/*"
+    }
+  }
+}

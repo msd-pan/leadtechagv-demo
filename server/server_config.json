@@ -1,0 +1,28 @@
+{
+  "initialTable": {
+    "ini_cycle": 1000,
+    "ini_rcs_ip": "http://192.168.1.111",
+    "ini_rcs_port": 6546,
+    "ini_db_ip": "localhost",
+    "ini_db_port": 3306,
+    "ini_db_name": "ellemoi-demo",
+    "ini_db_user": "root",
+    "ini_db_pwd": "msd123456",
+    "ini_lift_time": 0,
+    "ini_lift_count": 0,
+    "ini_roll_time": 0,
+    "ini_roll_count": 0,
+    "ini_agf_sum": 5,
+    "ini_agf_speed": 0.2,
+    "ini_logfile_path": "/log/",
+    "ini_logfile_status_path": "/log/"
+  },
+  "wcs_table": {
+    "ip": "localhost",
+    "db_port": 3306,
+    "db_name": "ellemoi-demo",
+    "db_user": "root",
+    "db_pwd": "msd123456",
+    "wcs_port": 5298
+  }
+}

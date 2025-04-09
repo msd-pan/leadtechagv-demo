@@ -1,0 +1,18 @@
+// variables
+$primary-color: #50ae8b;
+$secondary-color: #ff9800;
+$text-color: #333;
+$font-family: '游ゴシック', 'Yu Gothic', sans-serif;
+
+// mixins
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin responsive-container($padding, $bg-color, $radius) {
+  background-color: $bg-color;
+  padding: $padding;
+  border-radius: $radius;
+}
